@@ -1,9 +1,7 @@
 NodeJS-MySQL Project
 ==============================
 
-#### In thjis small project I created a Database Model called Product Mnagemnt whi8ch comprises of five tables. The main tables are categoris, product and attribues as well as two other tables with proper relation of a
-relational database. I used the express frame work to setuip the server, import nessary libaries to crate the arest api endpoints for the application. Used Router to properly naviagte to api endpoiunts and used Poistman as
-a testing tool for the api.
+#### In this small project I created a Database Model called Product Management wh8ch comprises of five tables. The main tables are categories, product and attributes as well as two other tables with proper relation of PK and FK of relational database. I used the *express* framework to setup the server, import necessary libraries to create the a RESTful api endpoints for the application. Used Router to properly navigate to api endpoints and Postman as a testing tool for the API.
 
 
 ### Tech Used
@@ -17,26 +15,28 @@ a testing tool for the api.
 #### Packages 
 <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/null/npm.png" width="36" height="36" alt="NPM"/></a>
 #### [Knex.js] : Knex.js (pronounced /kəˈnɛks/) is a "batteries included" SQL query builder for PostgreSQL, CockroachDB, MSSQL, MySQL, MariaDB, SQLite3, Better-SQLite3, Oracle, and Amazon Redshift designed to be flexible, portable, and fun to use.
+
 ## Installation
 
 
 ##### Run the following commands to run this project on localhost
 
 ```sh
-git clone https://github.com/TBM-MAHI/
+git clone https://github.com/TBM-MAHI/NodeJs-MySQL-Project/
 ```
 ```sh
-cd REACTApp_face_Recognition
+cd NodeJs-MySQL-Project
 ```
 ```sh
 npm install
 ```
-```sh
-npm run watch
-```
-##### Migrate the knexfile.js to setup database model IN MySQL
+##### Migrate the knexfile.js to setup database model In MySQL
 ```sh
 npx knex migrate:latest --knexfile ./src/knexfile.ts
+```sh
+##### Run the Project
+```sh
+npm run watch
 ```
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
