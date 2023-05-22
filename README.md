@@ -1,7 +1,7 @@
 NodeJS-MySQL Project
 ==============================
 
-#### In this small project I created a Database Model called Product Management which comprises of five tables. The main tables are categories, product and attributes as well as two other tables with proper relation of PK and FK of relational database. I used the *express* framework to setup the server, import necessary libraries to create the a RESTful api endpoints for the application. Used Router to properly navigate to api endpoints and Postman as a testing tool for the API.
+#### In this small project I created a Database Model called Product Management which comprises of five tables. The main tables are categories, product and attributes as well as two other tables with proper relation of PK and FK of relational database. I used the *express* framework to setup the server, imported necessary libraries to create the RESTful api endpoints for the application. Used Router to properly navigate to api endpoints and used Postman as a testing tool for the API.
 
 
 ### Tech Used
